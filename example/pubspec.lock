@@ -121,7 +121,7 @@ packages:
     source: hosted
     version: "1.8.0"
   native_shared_preferences:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: ".."
       relative: true
@@ -184,7 +184,7 @@ packages:
     source: hosted
     version: "4.2.4"
   shared_preferences:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: shared_preferences
       sha256: "5949029e70abe87f75cfe59d17bf5c397619c4b74a099b10116baeb34786fad9"

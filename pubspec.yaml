@@ -29,7 +29,7 @@ flutter:
       linux:
         default_package: shared_preferences_linux
       macos:
-        default_package: shared_preferences_foundation
+        pluginClass: NativeSharedPreferencesMacosPlugin
       web:
         default_package: shared_preferences_web
       windows:
